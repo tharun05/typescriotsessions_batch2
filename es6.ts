@@ -5,8 +5,6 @@ console.log("let and const");
 let variable = "digitallync";
 console.log(variable)
 variable = "anathor value";
-
-
 console.log(variable);
 
 const adharNumber = 123456789012;
