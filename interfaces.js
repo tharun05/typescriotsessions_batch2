@@ -14,6 +14,7 @@ var personlist = {
 };
 var Personone = /** @class */ (function () {
     function Personone() {
+        this.firstname = 'sam';
         this.lastname = "joel";
     }
     Personone.prototype.greet = function (lastname) {

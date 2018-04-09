@@ -21,7 +21,7 @@ const personlist : NamedPerson = {
 }
 
 class Personone implements NamedPerson{
-    firstname:string;
+    firstname:string = 'sam';
     lastname:string = "joel";
     greet(lastname:string){
         console.log(this.firstname+' '+this.lastname);
